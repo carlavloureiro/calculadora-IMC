@@ -11,7 +11,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 100px;
 }
 
 .resultado-IMC {
@@ -19,6 +18,8 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "JetBrains Mono", monospace;
+    color: white;
+    font-size: 30px;
 }
 
 .calculadora-conteiner {
@@ -67,10 +68,4 @@ body {
 .input-conteiner button:hover {
     height: 40px;
     cursor: pointer;
-}
-
-.resultado {
-    color: white;
-    font-size: 30px;
-    background-image: url();
 }
